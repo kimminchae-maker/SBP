@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    line-height: 100px;
+    background-color: aqua;
+
+}
+
+.header nav a{
+    text-decoration: none;
+    color: black;
+    text-decoration-line: none;
+    margin: 5px;
+}
+.header .auth-links a{
+    text-decoration: none;
+    color: black;
+    text-decoration-line: none;
+    margin: 5px;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.visual{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom:  20px;
+}
+
+.slide img{
+    width: 600;
+    height: 400px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+    background-color: aqua;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.header .auth-links a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.header div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.visual .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.visual .slide:nth-child(1) {
+animation: slide-animation 8s infinite 0s;
+}
+
+.visual .slide:nth-child(2) {
+    animation: slide-animation 8s infinite 2s;
+}
+
+.visual .slide:nth-child(3) {
+    animation: slide-animation 8s infinite 4s;
+}
+
+.visual .slide:nth-child(4) {
+    animation: slide-animation 8s infinite 6s;
+}
+
+@keyframes slide-animation {
+0%, 25% {
+    opacity: 1;
+}
+26%, 100% {
+    opacity: 0;
+}
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide .text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.slide .text-overlay h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.slide .text-overlay p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer{
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer p{
+    margin: 10px;
+}
+.footer div{
+    margin: 10px;
+}
+
+.calendar {
+    position: relative;
+    z-index: 1; 
+  }
+
+  .calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+  .calendar th, .calendar td {
+    border: 1px solid #ddd;
+    width: 14.28%;
+    height: 80px;
+  }
+
+  .calendar td a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .calendar td.today {
+    background-color: yellow; 
+    font-weight: bold;
+  }
+
+  .calendar td.game::after {
+    content: "●"; 
+    color: red;
+    display: block;
+    margin-top: 5px;
+  }
+
+  .calendar td a.highlight {
+    color: blue;
+    font-weight: bold;
+    animation: bounce 1s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+
+  .modal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1000%);
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 10;
+  }
+
+  .modal:target {
+    display: block;
+  }
+
+  .close-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .stadium-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .vs{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+
+.teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team{
+    font-size: 30px;
+}
+
+.information {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .info-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .info-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .info-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .info-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .info-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .info-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: blue;
+  }
+  
+  .info-button:hover {
+    background-color: gray;
+  }
+  
+  .info-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 600px;
+  }
+  
+  .info-images img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+/* 공통 스타일 */
+.ranking-container .tabs {
+  display: none;
+}
+
+/* 선택된 리그만 표시 */
+#league1:checked ~ .tabs1 {
+  display: block;
+}
+#league2:checked ~ .tabs2 {
+  display: block;
+}
+#league3:checked ~ .tabs3 {
+  display: block;
+}
+
+/* 투수/타자 탭 전환 */
+.tab-content {
+  display: none;
+}
+
+#pitchers1:checked ~ #pitchers1-content,
+#batters1:checked ~ #batters1-content,
+#pitchers2:checked ~ #pitchers2-content,
+#batters2:checked ~ #batters2-content,
+#pitchers3:checked ~ #pitchers3-content,
+#batters3:checked ~ #batters3-content {
+  display: block;
+}
+
+.tab-label {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.tab-content ul {
+  list-style: none;
+}
+
+
+
+
+.accordion details {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.accordion summary {
+  cursor: pointer;
+}
+
+.accordion details[open] {
+  position: relative;
+}
+
+.accordion details:not([open]) ul {
+  display: none; 
+}
+
+.accordion details[open] ~ details[open] {
+  display: none; 
+}
+
+.tab1-content ul .tab2-content ul .tab3-content ul{
+  list-style: none;
+}
+
+details ul{
+  list-style: none;
+}

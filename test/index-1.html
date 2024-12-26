@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport1" content="width=device-width, initial-scale=1.0">
+    <title>Skills Baseball Park1</title>
+    <link rel="stylesheet" href="./style-1.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo"><img src="../images/다운로드.jpg" alt="">Skills Baseball Park</div>
+        <nav class="nav">
+            <a href="./information.html">Information</a>
+            <a href="#">Statistics</a>
+            <a href="#">Reservation</a>
+            <a href="#">Goods</a>
+        </nav>
+        <div class="auth-links">
+            <a href="#">로그인</a>
+            <a href="#">회원가입</a>
+        </div>
+    </header>
+
+    <section class="visual">
+        <div class="slide">
+            <img src="../images/image01.png" alt="슬라이드 이미지">
+            <div class="text-overlay">
+                <h1>슬라이드 1 텍스트</h1>
+                <p>슬라이드 1 서브 텍스트</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../images/다운로드.jpg" alt="슬라이드 이미지">
+            <div class="text-overlay">
+                <h1>슬라이드 2 텍스트</h1>
+                <p>슬라이드 2 서브 텍스트</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../images/image01.png" alt="슬라이드 이미지">
+            <div class="text-overlay">
+                <h1>슬라이드 3 텍스트</h1>
+                <p>슬라이드 3 서브 텍스트</p>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="../images/다운로드.jpg" alt="슬라이드 이미지">
+            <div class="text-overlay">
+                <h1>슬라이드 4 텍스트</h1>
+                <p>슬라이드 4 서브 텍스트</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="information" class="information">
+      <div class="info-container">
+        <h2>Skills Baseball Park</h2>
+        <div class="info-content">
+          <div class="info-text">
+            <p>
+              간단한소개간단한소개간단한소개간단한소개간단한소개간단한소개간단한소개
+              간단한소개간단한소개간단한소개간단한소개간단한소개간단한소개간단한소개
+            </p>
+            <p>
+              간단한소개2번쨰간단한소개2번쨰간단한소개2번쨰간단한소개2번쨰간단한소개2번쨰
+              간단한소개2번쨰간단한소개2번쨰간단한소개2번쨰간단한소개2번쨰간단한소개2번쨰
+            </p>
+            <a href="information.html" class="info-button">더보기</a>
+          </div>
+          <div class="info-images">
+            <img src="../images/다운로드.jpg" alt="Skills Baseball Park Image 1">
+            <img src="../images/다운로드.jpg" alt="Skills Baseball Park Image 2">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+
+    <div class="calendar">
+      <table>
+        <caption>2024년 4월</caption>
+        <thead>
+          
+          <tr>
+            <th>일</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th><th>토</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+          </tr>
+          <tr>
+            <td>6</td><td>7</td><td class="game">8</td><td>9</td><td>10</td><td class="game">11</td><td>12</td>
+          </tr>
+          <tr>
+            <td>13</td><td>14</td><td class="game">15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+          </tr>
+          <tr>
+            <td><a href="#modal" class="highlight">20</a></td>
+            <td>21</td><td>22</td><td class="game">23</td><td>24</td><td>25</td><td>26</td>
+          </tr>
+          <tr>
+            <td>27</td><td>28</td><td>29</td><td>30</td><td></td><td></td><td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <div id="modal" class="modal">
+      <div class="stadium-icon">⚾</div> 
+      <p>아직 게임이 없습니다.</p>
+      <a href="#" class="close-btn">닫기</a>
+    </div>
+  
+    <div class="game-status">
+      <p>오늘 날짜: <span class="date">2024-04-18</span></p>
+      <div class="teams">
+        <div class="team">
+          <div class="team-logo">🌐</div>
+          <p>Team Web</p>
+          <div class="score">5</div>
+        </div>
+
+        <div class="vs">VS</div>
+        <div class="team">
+          <div class="team-logo">🎨</div>
+          <p>Team Design</p>
+          <div class="score">4</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="ranking" class="ranking">
+    <div class="ranking-container">
+      <h2>순위</h2>
+  
+      <div class="league-selector">
+        <input type="radio" id="league1" name="league" checked>
+        <label for="league1">나이트리그</label>
+  
+        <input type="radio" id="league2" name="league">
+        <label for="league2">주말리그</label>
+  
+        <input type="radio" id="league3" name="league">
+        <label for="league3">새벽리그</label>
+      </div>
+  
+      <div class="tabs tabs1">
+        <input type="radio" id="pitchers1" name="tab1" checked>
+        <label for="pitchers1" class="tab-label">투수</label>
+        <input type="radio" id="batters1" name="tab1">
+        <label for="batters1" class="tab-label">타자</label>
+  
+        <div class="tab-content" id="pitchers1-content">
+          <ul>
+            <li>1. 나일투</li>
+            <li>2. 나이투</li>
+            <li>3. 나삼투</li>
+            <li>4. 나사투</li>
+            <li>5. 나오투</li>
+            <li>6. 나육투</li>
+            <li>7. 나칠투</li>
+          </ul>
+        </div>
+        <div class="tab-content" id="batters1-content">
+          <ul>
+            <li>1. 나일타</li>
+            <li>2. 나이타</li>
+            <li>3. 나삼타</li>
+            <li>4. 나사타</li>
+            <li>5. 나오타</li>
+            <li>6. 나육타</li>
+            <li>7. 나칠타</li>
+
+          </ul>
+        </div>
+      </div>
+  
+      <div class="tabs tabs2">
+        <input type="radio" id="pitchers2" name="tab2" checked>
+        <label for="pitchers2" class="tab-label">투수</label>
+        <input type="radio" id="batters2" name="tab2">
+        <label for="batters2" class="tab-label">타자</label>
+  
+        <div class="tab-content" id="pitchers2-content">
+          <ul>
+            <li>1. 주일투</li>
+            <li>2. 주이투</li>
+            <li>3. 주삼투</li>
+            <li>4. 주사투</li>
+            <li>5. 주오투</li>
+            <li>6. 주육타</li>
+            <li>7. 주칠타</li>
+
+          </ul>
+        </div>
+        <div class="tab-content" id="batters2-content">
+          <ul>
+            <li>1. 주일타</li>
+            <li>2. 주이타</li>
+            <li>3. 주삼타</li>
+            <li>4. 주사타</li>
+            <li>5. 주오타</li>
+            <li>6. 주육타</li>
+            <li>7. 주칠타</li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="tabs tabs3">
+        <input type="radio" id="pitchers3" name="tab3" checked>
+        <label for="pitchers3" class="tab-label">투수</label>
+        <input type="radio" id="batters3" name="tab3">
+        <label for="batters3" class="tab-label">타자</label>
+  
+        <div class="tab-content" id="pitchers3-content">
+          <ul>
+            <li>1. 새일투</li>
+            <li>2. 새이투</li>
+            <li>3. 새삼투</li>
+            <li>4. 새사투</li>
+            <li>5. 새오투</li>
+            <li>6. 새육투</li>
+            <li>7. 새칠투</li>
+
+          </ul>
+        </div>
+        <div class="tab-content" id="batters3-content">
+          <ul>
+            <li>1. 새일타</li>
+            <li>2. 새이타</li>
+            <li>3. 새삼타</li>
+            <li>4. 새사타</li>
+            <li>5. 새오타</li>
+            <li>6. 새육타</li>
+            <li>7. 새칠타</li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+
+    <footer class="footer">
+        <div class="footer-logo"><img src="../images/다운로드.jpg" alt=""></div>
+
+        <p>Copyrightⓒ Skills baseball park. All rights reserved. </p>
+        <p>&copy; 
+            
+            Call: 142-3677 <br>
+            Email: help@skillsbaseballpark.com <br>
+            Address: (12345) 서울특별서 중구 중북로 71</p>
+    </footer>
+</body>
+</html>

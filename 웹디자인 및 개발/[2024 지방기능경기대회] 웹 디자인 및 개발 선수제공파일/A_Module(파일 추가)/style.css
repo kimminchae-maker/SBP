@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.slidebox{
+    width: 1000px;
+    height: 550px;
+    margin: 0 auto;
+    animation: slideAnimation 8s infinite linear;
+}
+
+@keyframes slideAnimation{
+    0%
+    24.9%{
+        background-image: url();
+    }
+    25%{
+        background-image: url();
+    }
+    50%{
+        background-image: url();
+    }
+    75%{
+        background-image: url();
+    }
+    
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    display: none;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+#modal-toggle:checked ~ .modal{
+    display: flex;
+    animation: fadeIn 0.5s ease;
+}
+
+.modal-content {
+    width: 500px;
+    height: 460px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.modal-head { 
+    width: 100%;
+    padding: 15px 0; 
+    border-bottom: 1px solid gray;
+}
+.modal-body { 
+    width: 100%;
+    padding: 15px 0; 
+    border-top: 1px solid gray;
+}
+.modal-content img { 
+    width: 300px; 
+    margin: 30px;
+    }
+
+.modal-toggle{
+    display:  none;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.acodian1{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-night:checked ~ .acodian1{
+    display: block;
+}
+
+
+.acodian2{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-weeke:checked ~ .acodian2{
+    display: block;
+}
+
+
+.acodian3{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-dawn:checked ~ .acodian3{
+    display: block;
+}
+.a1-p{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-pitchers1:checked ~ .a1-p{
+    display: block;
+}
+.a1-b{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#batters1:checked ~ .a1-b{
+    display: block;
+}
+.a2-p{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-pitchers2:checked ~ .a2-p{
+    display: block;
+}
+.a2-b{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#batters2:checked ~ .a2-b{
+    display: block;
+}
+.a3-p{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-pitchers3:checked ~ .a3-p{
+    display: block;
+}
+.a3-b{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#batters3:checked ~ .a3-b{
+    display: block;
+}
+.acodian3{
+    
+    top: 0;
+    left: 0;
+    background-color:  rgba(0, 0, 0, 0.5);
+    width: 100%;
+    
+    display: none;
+}
+
+#modal-dawn:checked ~ .acodian3{
+    display: block;
+}
+
+
+
+
+ 
